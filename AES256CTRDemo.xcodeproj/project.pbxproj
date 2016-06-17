@@ -13,6 +13,7 @@
 		39A7E0B41D1238C8009EFCDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A7E0B21D1238C8009EFCDE /* Main.storyboard */; };
 		39A7E0B61D1238C8009EFCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A7E0B51D1238C8009EFCDE /* Assets.xcassets */; };
 		39A7E0B91D1238C8009EFCDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A7E0B71D1238C8009EFCDE /* LaunchScreen.storyboard */; };
+		39B397AE1D13D19800D94BC4 /* aesctr.c in Sources */ = {isa = PBXBuildFile; fileRef = 39B397AC1D13D19800D94BC4 /* aesctr.c */; };
 		BF87D71F1D138B0B00774CA2 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BF87D71E1D138B0B00774CA2 /* NSData+Base64.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		39A7E0B51D1238C8009EFCDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A7E0B81D1238C8009EFCDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39A7E0BA1D1238C8009EFCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B397AC1D13D19800D94BC4 /* aesctr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aesctr.c; sourceTree = "<group>"; };
+		39B397AD1D13D19800D94BC4 /* aesctr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesctr.h; sourceTree = "<group>"; };
 		BF87D71D1D138B0B00774CA2 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		BF87D71E1D138B0B00774CA2 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +75,8 @@
 				39A7E0B71D1238C8009EFCDE /* LaunchScreen.storyboard */,
 				39A7E0BA1D1238C8009EFCDE /* Info.plist */,
 				39A7E0A91D1238C7009EFCDE /* Supporting Files */,
+				39B397AC1D13D19800D94BC4 /* aesctr.c */,
+				39B397AD1D13D19800D94BC4 /* aesctr.h */,
 			);
 			path = AES256CTRDemo;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				39A7E0B11D1238C7009EFCDE /* ViewController.m in Sources */,
 				BF87D71F1D138B0B00774CA2 /* NSData+Base64.m in Sources */,
 				39A7E0AE1D1238C7009EFCDE /* AppDelegate.m in Sources */,
+				39B397AE1D13D19800D94BC4 /* aesctr.c in Sources */,
 				39A7E0AB1D1238C7009EFCDE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
